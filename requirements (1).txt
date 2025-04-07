@@ -1,0 +1,13 @@
+
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+torch
+transformers
+langchain
+sentence-transformers
+faiss-cpu
