@@ -12,4 +12,4 @@ langchain
 sentence-transformers
 faiss-cpu
 pypdf2
-langchain[pdf]
+langchain
