@@ -17,6 +17,7 @@ from langchain.vectorstores import FAISS
 from langchain.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+import PyPDF2
 import tempfile
 import os
 
