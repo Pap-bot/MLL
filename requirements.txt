@@ -8,9 +8,7 @@ scikit-learn
 tensorflow
 torch
 transformers
-langchain
+langchain-community
 sentence-transformers
 faiss-cpu
 pypdf2
-langchain
-langchain-community
