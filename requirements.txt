@@ -5,7 +5,8 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-tensorflow
+tensorflow<2.16
+tf-keras
 torch
 transformers
 langchain-community
