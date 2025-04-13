@@ -10,10 +10,10 @@ from sklearn.cluster import KMeans
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-from langchain_community.document_loaders import PyPDFLoader
+from langchain.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.vectorstores import FAISS
 from langchain.llms import HuggingFacePipeline
 from langchain.chains import RetrievalQA
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
